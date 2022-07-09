@@ -1,0 +1,45 @@
+.thanhtoan {
+    margin-top: 170px;
+}
+
+.form-nhap__header {
+    text-align: center;
+}
+
+.form-nhap__items {
+    padding: 5px 10px;
+}
+
+.form-nhap label {
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.form-nhap input {
+    height: 40px;
+    width: 100%;
+    outline: none;
+    border: 1px solid #adadad;
+    border-radius: 3px;
+    padding-left: 10px;
+    font-size: 1.4rem;
+}
+
+.form-nhap input:focus {
+    border: 1px solid blue;
+    box-shadow: -1px -1px 3px rgba(0, 150, 255, 0.5), 1px 1px 3px rgb(0, 150, 255, 50%);
+}
+
+.form-nhap select {
+    height: 40px;
+    width: 100%;
+    font-size: 1.4rem;
+}
+
+.form-thanhtoan__header {
+    text-align: center;
+}
+
+.form-thanhtoan label {
+    font-size: 1.6rem;
+}

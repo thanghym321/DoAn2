@@ -1,0 +1,64 @@
+/* chitiet */
+.chitiet {
+    margin-top: 170px;
+}
+
+.chitiet-header {
+    background-color: var(--primary-color);
+    padding: 10px 0;
+    font-size: 1.4rem;
+    font-weight: 300;
+}
+
+.chitiet-header__link {
+    text-decoration: none;
+    color: #428bca;
+}
+
+.chitiet-header__link:hover {
+    color: #f45b4f;
+}
+
+.chitiet-content__imgb {
+    display: none;
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 590px;
+    width: 590px;
+}
+
+.chitiet-content__imgb:first-child {
+    display: block;
+}
+
+.chitiet-content__list-img {
+    display: flex;
+    justify-content: center;
+}
+
+.chitiet-content__imgl {
+    height: 60px;
+    width: 60px;
+}
+
+.chitiet-content__imgl:hover{
+    display: none;
+}
+
+.chitiet-content__imgl:nth-child(1):focus .chitiet-content__imgb:nth-child(1){
+    display: block;
+}
+
+.chitiet-content__imgl:nth-child(2):focus .chitiet-content__imgb:nth-child(2){
+    display: block;
+}
+
+.chitiet-content__imgl:nth-child(3):focus .chitiet-content__imgb:nth-child(3){
+    display: block;
+}
+
+.chitiet-content__imgl:nth-child(4):focus .chitiet-content__imgb:nth-child(4){
+    display: block;
+}
+
